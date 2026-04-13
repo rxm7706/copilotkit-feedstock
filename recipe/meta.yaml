@@ -21,9 +21,9 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - langgraph >=0.3.25,<2
+    - langgraph >=0.3.25,<2.0
     - langchain >=0.3.0
-    - ag-ui-langgraph >=0.0.29
+    - ag-ui-langgraph >=0.0.29,<0.0.32
     - ag-ui-protocol >=0.1.11
     - fastapi >=0.115.0,<1.0.0
     - partialjson >=0.0.8,<0.0.9
